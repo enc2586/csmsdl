@@ -1,0 +1,4 @@
+requests
+Pillow
+tkinter
+pyinstaller
