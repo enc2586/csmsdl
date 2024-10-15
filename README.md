@@ -34,7 +34,7 @@ Follow these steps to build the application into an executable:
 ![pic1](https://github.com/user-attachments/assets/ba70ec21-5dc5-465d-9619-d6cc86f7e88d)
 1. Open the PDF on browser.
 
-![pic2](https://github.com/user-attachments/assets/fd5bd75f-694d-4cdc-b250-c08b26d1227a)
+![pic2](https://github.com/user-attachments/assets/4f734a6e-f1a0-47c8-84a3-76f30c53def3)
 2. Get the URL by following instructions in picture
 
 ## Requirements
