@@ -2,6 +2,8 @@
 
 This application downloads images from a specified URL range and converts them into a PDF. It is built using Python and Tkinter for the GUI.
 
+To use this code, you should build the executable on your own. (or just use the code piece only)
+
 ## How to Build
 
 Follow these steps to build the application into an executable:
@@ -23,9 +25,17 @@ Follow these steps to build the application into an executable:
 ## Usage
 
 1. Run the executable `main.exe`.
-2. Enter the URL, start page, end page, and optional filename.
-3. Click the "Download" button to start downloading images and converting them into a PDF.
-4. If the URL format is incorrect, an error message will be displayed and the application will quit.
+2. Enter the URL, select where to save.
+3. Hit the button. Ta-da! It's done!
+
+*Tip: use ALPDF to OCR your pdf*
+
+### How to get the URL
+![pic1](https://github.com/user-attachments/assets/ba70ec21-5dc5-465d-9619-d6cc86f7e88d)
+1. Open the PDF on browser.
+
+![pic2](https://github.com/user-attachments/assets/fd5bd75f-694d-4cdc-b250-c08b26d1227a)
+2. Get the URL by following instructions in picture
 
 ## Requirements
 
