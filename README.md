@@ -6,7 +6,7 @@ To use this code, you should build the executable on your own. (or just use the 
 
 ## How to Build
 
-Follow these steps to build the application into an executable:
+Follow these steps to build the application into an executable (All codes should run at the project directory):
 
 1. Install the required libraries:
 
