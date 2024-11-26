@@ -45,10 +45,3 @@ Follow these steps to build the application into an executable:
 - `Pillow` library
 - `tkinter` library (usually included with Python)
 
-## Installation of Requirements
-
-Before building the executable, ensure you have the required libraries installed:
-
-```sh
-pip install -r requirements.txt
-```
