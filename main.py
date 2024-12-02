@@ -112,7 +112,7 @@ def start_download():
 # Set up the GUI window
 root = tk.Tk()
 root.title("Image Downloader and PDF Creator")
-root.geometry("500x300")
+root.geometry("500x350")
 
 # Instructions label
 instructions_label = tk.Label(
@@ -123,6 +123,9 @@ Instructions:
 2. Select 'Network' Tab from Devtools and refresh the PDF page.
 3. Look for number image labels like 1.png, 13.png, etc.
 4. Copy the whole 'Request URL' and paste it.
+
+(If you can't find the image, the file might be xhtml type.
+Sadly they are not supported.)
 """,
     justify="left",
 )
