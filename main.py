@@ -22,7 +22,7 @@ def download_image(url, progress_label, keep_images=True, filename=None):
         return False
 
     BASE_URL = re.match(REGEX, url).group(0) + "/"
-    IMAGE_DIR = filename if filename else "images"
+    IMAGE_DIR = "images" if not filename else filename.split(".")[0]
 
     if not os.path.exists(IMAGE_DIR):
         os.makedirs(IMAGE_DIR)
@@ -56,7 +56,9 @@ def download_image(url, progress_label, keep_images=True, filename=None):
         Image.open(f"{IMAGE_DIR}/{i}.{EXTENSION}") for i in range(1, file_length + 1)
     ]
 
-    pdf_path = (filename if filename else time.strftime("%Y%m%d_%H%M%S")) + ".pdf"
+    pdf_path = (
+        filename.split(".")[0] if filename else time.strftime("%Y%m%d_%H%M%S")
+    ) + ".pdf"
 
     images[0].save(
         pdf_path, "PDF", resolution=100.0, save_all=True, append_images=images[1:]
