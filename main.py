@@ -142,7 +142,7 @@ def on_entry_click(event):
     if url_entry.get() == "https://doc.coursemos.co.kr/.../1.png":
         url_entry.delete(0, "end")
         url_entry.insert(0, "")
-        url_entry.config(fg="black")
+        url_entry.config(fg="green")
 
 
 def on_focusout(event):
