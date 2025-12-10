@@ -1,3 +1,7 @@
+> [!WARNING]
+> **This project is ARCHIVED.**
+> To use this feature, please refer to the [csmsdl-extension](https://github.com/enc2586/csmsdl-extension) project, which is much easier to use.
+
 # Image Downloader
 
 This application downloads images from a specified URL range and converts them into a PDF. It is built using Python and Tkinter for the GUI.
